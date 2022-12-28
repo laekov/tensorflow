@@ -34,10 +34,10 @@ except ImportError:
 # pylint: enable=g-import-not-at-top
 
 _DEFAULT_CUDA_VERSION = '9.0'
-_DEFAULT_CUDNN_VERSION = '7'
-_DEFAULT_NCCL_VERSION = '2.2'
-_DEFAULT_CUDA_COMPUTE_CAPABILITIES = '3.5,7.0'
-_DEFAULT_CUDA_PATH = '/usr/local/cuda'
+_DEFAULT_CUDNN_VERSION = '7.3.0'
+_DEFAULT_NCCL_VERSION = '2.7.8'
+_DEFAULT_CUDA_COMPUTE_CAPABILITIES = '7.0'
+_DEFAULT_CUDA_PATH = '/home/spack/spack/opt/spack/linux-debian11-skylake_avx512/gcc-6.5.0/cuda-9.0.176-3waz5lhnyf7l4vrvobb3serjrpkkpp3f'
 _DEFAULT_CUDA_PATH_LINUX = '/opt/cuda'
 _DEFAULT_CUDA_PATH_WIN = ('C:/Program Files/NVIDIA GPU Computing '
                           'Toolkit/CUDA/v%s' % _DEFAULT_CUDA_VERSION)
